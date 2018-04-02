@@ -1,0 +1,43 @@
+body {
+	text-align: center;
+}
+
+#logo {
+	height: 200px;
+}
+
+form {
+	font-size: 30px;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+.users {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.user-box {
+	height: 120px;
+	margin: 10px;
+	transition: 0.5s;
+}
+
+.user-box:hover {
+	opacity: 0.3;
+}
+
+.user-box img {
+	display: block;
+}
+
+.user-box a {
+	text-decoration: none;
+}
